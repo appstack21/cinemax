@@ -13,8 +13,10 @@ class NetworkManager {
 
   Future<dynamic> get(String url) {
     var urlO = Uri(scheme: url);
+    print("URL: $urlO");
     return http.get(urlO).then((http.Response response) {
       final String res = response.body;
+      print("RES: $res");
       final int statusCode = response.statusCode;
       if (statusCode < 200 || statusCode > 400) {
         throw new Exception("Error while fetching data");
