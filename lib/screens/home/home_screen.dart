@@ -330,7 +330,7 @@ Widget _buildPageViewContent(BuildContext context, Movie movie) {
             height: 60,
             width: 60,
             decoration:
-                BoxDecoration(color: Colors.black, shape: BoxShape.circle),
+                BoxDecoration(color: Color(0xffEAEAEA), shape: BoxShape.circle),
             child: buildChart(movie.voteAverage ?? 0, Size(60, 60)),
           )
         ],

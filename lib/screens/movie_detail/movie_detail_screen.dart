@@ -247,7 +247,7 @@ class MovieDetailScreenState extends State<MovieDetailScreen>
                                           height: 60,
                                           width: 60,
                                           decoration: BoxDecoration(
-                                              color: Colors.black,
+                                              color: Color(0xffEAEAEA),
                                               shape: BoxShape.circle),
                                           child: buildChart(
                                               detail?.voteAverage ?? 0.0,

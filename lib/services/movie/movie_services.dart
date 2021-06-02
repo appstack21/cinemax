@@ -19,7 +19,6 @@ class MovieServices {
   Future<Movies> fetchMovieList(String url, int pageNo) async {
     String finalUrl = '$url$pageNo';
     return networkManager.get(finalUrl).then((dynamic result) {
-      print(result);
       if (result['results'] != null) {
         String body = _encoder.convert(result);
         return Movies.fromJson(body);

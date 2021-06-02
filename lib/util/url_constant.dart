@@ -14,16 +14,16 @@ const String kGenereTVUrl = '$kBaseUrl/genre/tv/list?api_key=$kApiKey';
 //Movie List
 //Now Playing
 const String kNowPaylingMovieUrl =
-    '$kBaseUrl/movie/now_playing?api_key=$kApiKey&page=1';
+    '$kBaseUrl/movie/now_playing?api_key=$kApiKey&page=';
 //Top Rated
 const String kTopRatedMovieUrl =
-    '$kBaseUrl/movie/top_rated?api_key=$kApiKey&page=1';
+    '$kBaseUrl/movie/top_rated?api_key=$kApiKey&page=';
 //Popular
 const String kPopularMovieUrl =
-    '$kBaseUrl/movie/popular?api_key=$kApiKey&page=1';
+    '$kBaseUrl/movie/popular?api_key=$kApiKey&page=';
 //Upcoming
 const String kUpcomingMovieUrl =
-    '$kBaseUrl/movie/upcoming?api_key=$kApiKey&page=1';
+    '$kBaseUrl/movie/upcoming?api_key=$kApiKey&page=';
 
 ///Trending
 const String kTrendingMovieUrl =
